@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
+
+    <title>Portfolio Webpage Kyrylo Polishchuk</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Kyrylo Polishchuk</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user-circle nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contacts
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav__close"></i>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav__toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/kyrylo-polishchuk-b6849021b" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/KyPoCha" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" xlink:href="./img/photo_2022-10-10_21-05-39.jpg" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'am Kyrylo</h1>
+                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <p class="home__description">Experienced in web design and development knowledge, producing quality work</p>
+                        <a href="#contacts" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="img/photo_2022-10-10_21-05-39%20(2).jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">I'am a student of the second year of the Czech Technical University in Prague with big knowledge of Web Development using React and NodeJS and abilities to write backend in C++, C and Java.</p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed PET <br> project</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="./pdf/Kyrylo-Polishchuk-cv-1.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-import button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend developer</h1>
+                                <span class="skills__subtitle"></span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_js"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Typescript</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_ts"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_react"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">GIT</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_git"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_bootstrap"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">npm</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills_npm"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-server skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Backend developer</h1>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Node.js</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills_node"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">C</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills_c"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">C++</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills_c++"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">C#</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills_c#"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Java</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills_java"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content qualification__active qualification" data-content id="education">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Software Engineer</h3>
+                                <span class="qualification__subtitle">CTU - Bachelor’s degree in Software Engineering in the Czech Technical University in Prague</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - 2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+            <a href="#portfolio"></a>
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./img/Screenshot from 2022-09-08 21-05-00.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">CLI Weather Utility</h3>
+                            <p class="portfolio__description">Implementation of the weather utility in JavaScript, in which with the help of 1 command we get the weather forecast in a certain specified region.</p>
+                            <a class="button button--flex button__small portfolio__button" href="https://github.com/KyPoCha/weather-cli-node-js">
+                                GITHUB (package)
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./img/Screenshot from 2022-09-08 21-00-04.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Movie App</h3>
+                            <p class="portfolio__description">Online web finding movie app that is based on React JS</p>
+                            <a class="button button--flex button__small portfolio__button" href="https://kypocha.github.io/movie-app/">
+                                DEMO
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./img/Screenshot from 2022-09-08 20-51-36.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Chess Game</h3>
+                            <p class="portfolio__description">Web Chess Game written with React and Typescript</p>
+                            <a class="button button--flex button__small portfolio__button" href="https://kypocha.github.io/chess-game/">
+                                DEMO
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./img/Screenshot from 2022-09-08 21-20-47.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Dashboard API</h3>
+                            <p class="portfolio__description">The second dashboard api project with requests and authorization
+                                is written in Typescript using layer architecture, where controllers,
+                                services, a database and its repository, dependency injections,
+                                decorators and configuration files are implemented. Unit and e2e
+                                testing are written in practice on this project.</p>
+                            <a class="button button--flex button__small portfolio__button" href="https://github.com/KyPoCha/dashboard-api-kyropol">
+                                GITHUB
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./img/Screenshot from 2022-09-08 21-27-59.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Income calculator</h3>
+                            <p class="portfolio__description">The goals of these projects are to use and practice the acquired
+                                skills in web development using JavaScript, such as: dynamic
+                                updating of data on pages, business logic design, event processing,
+                                refactoring and working out mistakes made while writing scripts.</p>
+                            <a class="button button--flex button__small portfolio__button" href="https://kypocha.github.io/">
+                                DEMO
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./img/istockphoto-1350722246-170667a.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Students projects / C++ Matrix Calculator</h3>
+                            <p class="portfolio__description">The student projects implemented the skills of object-oriented
+                                and procedural programming in C, C++ and C#, as well as the
+                                competent use of memory and efficient code. Basically, there were implementations of individual tasks in which the goal was to build
+                                business logic for each individual item of the task. The largest
+                                project was a semester work on the topic Matrix Calculator.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!--<div class="swiper-pagination">
+                </div>-->
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle"><a href="tel:+420773551028" class="contact__link">+420 773 551 028</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-at contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"><a href="email: kirillpolishchuk02@gmail.com" class="contact__link">kirillpolishchuk02@gmail.com</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle"><a href="https://goo.gl/maps/Y4jtdedk12Hp1mdR6" class="contact__link">Czech Republic - Prague</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Kyrylo</h1>
+                    <span class="footer__subtitle">Frontend developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/kyrylo-polishchuk-b6849021b" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/KyPoCha" class="footer__social" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                    <a href="https://instagram.com/j_poli_k?igshid=YmMyMTA2M2Y=" class="footer__social" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; All right reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
